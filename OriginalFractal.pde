@@ -1,18 +1,18 @@
 public void setup(){
-  size(1000,1000);
+  size(500,500);
   circleMode(CENTER);
 }
 
 public void draw(){
   background(0);
   fill(color(0,0,0));
-  myFractal(500, 500, 250);
+  myFractal(200, 200, 75);
   
 }
 
 public void myFractal(int x, int y, int siz){
   circle(x, y, siz);
-  if(siz > 10){
+  if(siz > 5){
     myFractal(x-siz/2, y, siz/2);
     myFractal(x+siz/2, y, siz/2);
   }
