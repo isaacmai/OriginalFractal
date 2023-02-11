@@ -1,12 +1,12 @@
 public void setup(){
-  size(500,500);
+  size(750,750);
   ellipseMode(CENTER);
 }
 
 public void draw(){
   background(0);
   fill(color(0,0,0));
-  myFractal(200, 200, 75);
+  myFractal(375, 375, 400);
   
 }
 
